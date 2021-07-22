@@ -1,6 +1,4 @@
 
-
-
 function startTimer() {
     gTime1 = Date.now();
     gMyTime = setInterval(timeCycle, 1);
