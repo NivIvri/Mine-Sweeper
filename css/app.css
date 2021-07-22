@@ -1,12 +1,58 @@
+body {
+  margin: 0 auto;
+  background-color: #ffbcbc;
+}
+.board-container {
+  margin: 0 auto;
+}
 .board-container td button {
-    width: 40px;
-    height:40px;
-    text-align: center;
-    font-size:1.4em;
-    background-color:antiquewhite ;
+  width: 40Px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #b5eaea;
+  padding: 5px; /* Some padding */
 }
 
-.neg{
-    background-color: black;
-    
+h1 {
+  color: #e93b81;
+  font-weight: bolder;
+  box-shadow: black;
+}
+
+.btn-group button {
+  background-color: #edf6e5; /* Green background */
+  color: black; /* White text */
+  padding: 10px 10px; /* Some padding */
+  margin-bottom: 10px;
+  width: 70px;
+  cursor: pointer; /* Pointer/hand icon */
+}
+
+.timer {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 50%;
+}
+
+.lives button {
+  background-color: #f38ba0; /* Green background */
+  color: black; /* White text */
+  padding: 10px 10px; /* Some padding */
+  margin-bottom: 10px;
+  border-radius: 20%;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.btn-group .icon {
+  background-color: #f9f9f9;
+  padding: 8px 8px; /* Some padding */
+}
+
+.neg {
+  background-color: black;
 }
